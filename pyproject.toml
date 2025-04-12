@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nix-proxy-manager"
+version = "0.1"
+description = "Configure proxy settings for nix-daemon"
+requires-python = ">=3.9"
+
+[project.scripts]
+nix-proxy-manager = "main:main" 
